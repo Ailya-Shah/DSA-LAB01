@@ -1,0 +1,22 @@
+# Ignore compiled object files and binaries
+*.o
+*.obj
+*.exe
+*.pdb
+*.dll
+*.so
+*.dylib
+
+# Ignore build folders
+bin/
+build/
+Debug/
+Release/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
