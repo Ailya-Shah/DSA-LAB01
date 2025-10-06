@@ -20,7 +20,7 @@ int main() {
     else for (int idx : result2) cout << idx << " ";
     cout << endl;
 
-    // 3. Empty array
+    // an empty array of integers
     vector<int> arr3 = {};
     int key3 = 5;
     vector<int> result3 = findAllIndices(arr3, key3);
